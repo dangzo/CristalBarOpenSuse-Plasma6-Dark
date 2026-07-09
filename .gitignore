@@ -1,0 +1,46 @@
+# OS-generated files
+.DS_Store
+Thumbs.db
+.directory
+
+# Temporary/editor swap files
+*~
+*.swp
+*.swo
+*.tmp
+*.temp
+
+# Logs
+*.log
+
+# IDE/editor settings
+.idea/
+.vscode/
+
+# AI/editor local settings
+.claude/settings.local.json
+
+# Qt/QML cache and generated files
+.qmlcache/
+qmlcache/
+qmlcachegen/
+*.qmlc
+*.jsc
+
+# Common build/output folders
+build/
+build-*/
+cmake-build-*/
+out/
+dist/
+
+# CMake/autotools byproducts (if used)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+
+# Archives and backups
+*.bak
+*.orig
+*.rej
