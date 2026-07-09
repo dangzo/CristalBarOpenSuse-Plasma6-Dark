@@ -2,6 +2,10 @@
 
 Custom Plasma 6 splash screen package based on the original work by [mrmaire](https://github.com/mrmaire).
 
+## Preview
+
+![Cristal Bar OpenSuse - Dark splash preview](contents/previews/preview.png)
+
 ## Attribution
 
 - Original author: [mrmaire](https://github.com/mrmaire)
@@ -34,7 +38,7 @@ Copy this project to your local Plasma splash packages directory:
 
 ```bash
 mkdir -p ~/.local/share/plasma/look-and-feel/
-cp -r CristalBarOpenSuse-Plasma6-Dark ~/.local/share/plasma/look-and-feel/CristalBarOpenSuse-Plasma6-Dark
+cp -r "$PWD" ~/.local/share/plasma/look-and-feel/
 ```
 
 Then select it in System Settings:
